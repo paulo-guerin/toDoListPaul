@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/index.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-light text-center mt-2">Drag and drop HTML5</h1>
+    </header>
+    <main class="d-flex flex-column align-items-center">
+        <section id="addBarSection">
+            <input type="text" id="addBar" placeholder="Add items for your list">
+            <button id="addButton">+</button>
+        </section>
+        <section id="listSection">
+            
+        </section>
+        <section id="afterList" ondrop="drop(event)" ondragover="allowDrop(event)"></section>
+    </main>
+</body>
+<script src="public/js/index.js"></script>
+</html>

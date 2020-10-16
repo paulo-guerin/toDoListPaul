@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(33, 33, 163);
+}
+
+#addBarSection{
+    width:33%;
+    border: solid white;
+}
+
+#addBar{
+    width:89%;
+    background-color:transparent;
+    color:white;
+    border:none;
+}
+
+#addButton{
+    width:10%;
+    background-color:transparent;
+    color:white;
+    border:none;
+}
+
+#addBar::placeholder {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+#listSection{
+    width:33%;
+}
+
+.listElement{
+    width:100%;
+    background-color:white;
+    color:rgb(33, 33, 163);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#afterList{
+    width:33%;
+    height:150px;
+}
